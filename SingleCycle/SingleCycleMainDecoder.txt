@@ -1,0 +1,16 @@
+R !o5!o4!o3!o2!o1!o0
+lw o5!o4!o3!o2*o1*o0
+sw o5!o4*o3!o2*o1*o0
+beq !o5!o4!o3*o2!o1!o0
+addi !o5!o4*o3!o2!o1!o0
+j !o5!o4!o3!o2*o1!o0
+
+let RegWrite=!o5!o4!o3!o2!o1!o0+o5!o4!o3!o2*o1*o0+!o5!o4*o3!o2!o1!o0;
+let RegDst=!o5!o4!o3!o2!o1!o0;
+let ALUSrc=o5!o4!o3!o2*o1*o0+o5!o4*o3!o2*o1*o0+!o5!o4*o3!o2!o1!o0;
+let Branch=!o5!o4!o3*o2!o1!o0;
+let MemWrite=o5!o4*o3!o2*o1*o0;
+let MemtoReg=o5!o4!o3!o2*o1*o0;
+let ALUo1=!o5!o4!o3!o2!o1!o0;
+let ALUo0=!o5!o4!o3*o2!o1!o0;
+let Jump=!o5!o4!o3!o2*o1!o0

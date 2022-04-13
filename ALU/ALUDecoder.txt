@@ -1,0 +1,3 @@
+let ac2=ao0+ao1*f5!f4!f3!f2*f1!f0+ao1*f5*!f4*f3!f2*f1!f0;
+let ac1=(!ao1+!f5+f4+f3+!f2+f1+f0)*(!ao1+!f5+f4+f3+!f2+f1+!f0);
+let ac0=ao1*f5!f4!f3*f2!f1*f0+ao1*f5!f4*f3!f2*f1!f0
